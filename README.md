@@ -1,3 +1,0 @@
-# srthiru.github.io
-
-🔨🔨🔨
