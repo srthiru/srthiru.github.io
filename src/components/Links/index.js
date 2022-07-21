@@ -4,6 +4,9 @@ import styles from './styles.module.css';
 import logo from '@site/static/img/pp.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
 import {useThemeConfig} from '@docusaurus/theme-common';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 
 const linksList = [
   {
@@ -36,8 +39,7 @@ const hoverColor = (name) => {
 export default function Links() {
     const { isDarkTheme } = useThemeConfig();
     return (
-      <Col>
-        {linksList.map(cn => {
+        /*{ {linksList.map(cn => {
           return (
             <a
               href={cn.link}
@@ -46,7 +48,20 @@ export default function Links() {
               {cn.name}
             </a>
           );
-        })}
-      </Col>
+        })} }*/
+
+      <Row className='justify-content-md-center'>
+        <Col>
+          <a href='https://linkedin.com/in/srthiruvenkadam'><LinkedInIcon/></a>
+        </Col>
+          
+        <Col>
+          <a href='https://github.com/srthiru'><GitHubIcon/></a>
+        </Col>
+
+        <Col>
+          <a href='mailto:srthiruvenkadam@gmail.com'><EmailIcon/></a>
+        </Col>
+      </Row>
     );
   };

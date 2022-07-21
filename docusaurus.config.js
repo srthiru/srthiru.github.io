@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Thiruvenkadam',
-  tagline: 'Hmmm',
+  tagline: 'Think . Do . Be',
   url: 'https://srthiru.github.io.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config = {
         },
         items: [
           {href: 'https://srthiru.github.io/fast-ramblings/', label: 'Blog', position: 'right'},
-          {href: 'https://github.com/srthiru', label: 'GitHub', position: 'right'},
+          // {href: 'https://github.com/srthiru', label: 'GitHub', position: 'right'},
         ]
       },
       footer: {

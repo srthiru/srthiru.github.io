@@ -27,9 +27,7 @@ function HomePageHeader() {
           </Box>
         </Box>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <Row>
-          <Links />
-        </Row>
+        <Links />
       </div>
     </header>
   )
@@ -39,7 +37,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Trying`}
+      title={`Welcome`}
       description="Thiru's personal website and blog">
       <HomePageHeader />
       <main>

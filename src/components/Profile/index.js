@@ -13,7 +13,7 @@ export default function Profile() {
             <Col style={{textAlign: 'center', margin: '40px'}}>
             <h2>About Me</h2>
             <p>
-              Hiya, my name is Thiruvenkadam.
+              Hi, my name is Thiruvenkadam.
               I am a Masters student at UIC, specializing in Machine learning and Reinforcement learning. 
               Previously, I worked as a Data scientist and a Business analyst for about 5 years, where 
               I helped clients acheive their business needs by consulting, building and productionalizing ML models, 
